@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research_agent"
+version = "0.1.0"
+description = "Autonomous research agent powered by NVIDIA NIM APIs"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "openai>=1.0.0",
+    "requests>=2.25.0",
+    "beautifulsoup4>=4.9.0",
+    "fastmcp>=0.1.0",
+    "duckduckgo_search>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "rich>=12.0.0",
+]
+
+[project.scripts]
+research-agent = "research_agent.cli:main"
+research-agent-mcp = "research_agent.mcp_server:main"

@@ -1,0 +1,1 @@
+This function call runs the Python script `research_agent/tools.py` with the argument `--search 'Llama 3.3 release date'` and redirects the output to `search_results.txt`.
