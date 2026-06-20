@@ -1,4 +1,4 @@
-# NIM Research Agent
+# NIM Pi Research Agent
 
 An autonomous web-searching and page-crawling research subagent that can be called from Claude Desktop, Antigravity, Cursor, Windsurf, or any MCP-compatible host via the **Model Context Protocol (MCP)**. Instead of the host agent spinning up its own browser processes, it delegates research to a dedicated [`@earendil-works/pi-coding-agent`](https://github.com/earendil-works/pi) subprocess powered by **NVIDIA NIM** inference APIs.
 
