@@ -1,1 +1,0 @@
-The function call with the proper arguments to create a file named "hello.txt" containing the word "world" is {"name": "write", "parameters": {"path": "hello.txt", "content": "world"}}.
